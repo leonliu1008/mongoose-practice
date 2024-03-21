@@ -1,0 +1,55 @@
+<!-- public/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./test.css" />
+    <title>CRUD App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="mt-4 mb-4">CRUD App</h2>
+
+      <form id="itemForm">
+        <div class="form-row">
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              id="itemName"
+              placeholder="Item Name"
+              required
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              id="itemDescription"
+              placeholder="Item Description"
+              required
+            />
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Add Item</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="item-container">
+        <!-- Item list will be displayed here -->
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

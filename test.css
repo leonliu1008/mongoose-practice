@@ -1,0 +1,21 @@
+/* public/styles.css */
+
+body {
+  padding: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.item-card {
+  margin-top: 10px;
+}
+
+.delete-btn {
+  margin-left: 10px;
+}
